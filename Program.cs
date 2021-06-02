@@ -6,6 +6,7 @@ namespace BA_C_SHARP_4
     {
         static void Main(string[] args)
         {
+
             // IF-ELSE -- ELSE IF
 
             //SORU: Veri tabanimiz olsun. Kullanici adi ve sifremiz saklansin.
