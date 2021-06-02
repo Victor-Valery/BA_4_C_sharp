@@ -23,7 +23,10 @@ namespace BA_C_SHARP_4
             //7. DOGU VE YANLIS DURUMLAR GÖRE CIKTILAR ÜRET 
 
 
-            string kullaniciAdi = "Admin";
+            while (true)
+            {
+
+           string kullaniciAdi = "Admin";
             string parola = "12345";
 
             Console.WriteLine("KullaniciAdi Adini Giriniz: ");
@@ -36,6 +39,7 @@ namespace BA_C_SHARP_4
             if (kullaniciAdi == ekranKullaniciAdi && parola == ekranParola)
             {
                 Console.WriteLine("HOSGELDINIZ");
+                break;
             }
 
             else
@@ -43,11 +47,14 @@ namespace BA_C_SHARP_4
                 Console.WriteLine("Kullanici Adi veya Sifre yanlis");
             }
 
+            }
+
+ 
 
 
 
 
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
